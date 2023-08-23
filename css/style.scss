@@ -38,8 +38,8 @@
 
 // this is how you customize bootstrap with scss
 
-$success: #800800;
 
+@import "custom-variables";
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
 
