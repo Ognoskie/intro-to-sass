@@ -24,14 +24,32 @@
 //  }
 //}
 
-$tablet-breakpoint: 768px
+//$tablet-breakpoint: 768px
+//
+//h1 {
+//  color: blueviolet;
+//  &:hover {
+//    color: deeppink;
+//  }
+//  @media (max-width: $tablet-breakpoint) {
+//    color: blue;
+//  }
+//}
 
-h1 {
-  color: blueviolet;
-  &:hover {
-    color: deeppink;
-  }
-  @media (max-width: $tablet-breakpoint) {
-    color: blue;
-  }
-}
+// this is how you customize bootstrap with scss
+
+$success: #800800;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+
+
+
+
+
+
+
+
+
+
